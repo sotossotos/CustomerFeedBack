@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#AAAAAA"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:text="Admin Code"/>
+
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D5D5D5"
+        android:theme="@style/MyEditTextTheme"
+        android:layout_below="@+id/prompt"
+        android:textColorHint="#D5D5D5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:textSize="30sp"
+        android:hint="Type Code"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/enterCodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumberPassword"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#1E1E1E"
+        android:ellipsize="middle"
+        android:shadowColor="#1E1E1E"
+        android:text="Enter"
+        android:textSize="25sp"
+        android:textColor="#D5D5D5"
+        app:elevation="10dp"
+        app:strokeColor="#D6D6D6"
+        app:strokeWidth="4dp" />
+
+</RelativeLayout>
