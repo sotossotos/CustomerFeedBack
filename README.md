@@ -9,4 +9,4 @@ Portrait Design
 
 Landscape Design
 
-![Landscape design](ImageMaterial/LandscapeDesignmain.PNG)
+![Landscape design](ImageMaterial/LandscapeDesignMain.PNG)
